@@ -97,7 +97,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/majestic-cloud/docs/edit/main/blog/',
+            'https://github.com/majestic-cloud/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
