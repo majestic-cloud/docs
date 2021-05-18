@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Majestic.Cloud documentation',
+  tagline: 'Learn. Learn. Learn',
+  url: 'https://docs.majestic.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Majestic.cloud', // Usually your GitHub org/user name.
+  projectName: 'majestic.cloud', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Majestic.cloud documentation',
@@ -22,6 +22,12 @@ module.exports = {
           docId: 'intro',
           position: 'left',
           label: 'Tutorial',
+        },
+        {
+          type: 'doc',
+          docId: 'EC2/getting-started',
+          position: 'left',
+          label: 'Compute',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -85,13 +91,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/majestic-cloud/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/majestic-cloud/docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
