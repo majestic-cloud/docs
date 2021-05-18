@@ -11,10 +11,10 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Majestic.cloud documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Majestic.cloud Logo',
+        src: 'img/majestic.cloud.logo.png',
       },
       items: [
         {
@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/majestic-cloud',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,16 +47,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/channel/UCKAKDLCR2v0kYxtgHx6AU9w',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/majesticcloud',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/cloud_majestic',
             },
           ],
         },
@@ -65,16 +65,16 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://majestic.cloud',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/majestic-cloud',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}  Majestic.cloud, Built with Docusaurus.`,
     },
   },
   presets: [
