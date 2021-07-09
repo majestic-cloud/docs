@@ -7,3 +7,4 @@
 
 ## External resources
 [Whiteboarding AWS Direct Connect](https://www.youtube.com/watch?v=uP68iqyuqTg)
+
