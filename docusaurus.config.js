@@ -19,15 +19,27 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'AWS Services/intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'AWS Services',
         },
         {
           type: 'doc',
-          docId: 'EC2/getting-started',
+          docId: 'Topics/intro',
           position: 'left',
-          label: 'Compute',
+          label: 'Topics',
+        },
+        {
+          type: 'doc',
+          docId: 'External-tools/intro',
+          position: 'left',
+          label: 'External tools',
+        },
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
