@@ -19,3 +19,12 @@ Good for HPC workloads
     - uses the MPI (Message Passing Interface) standard
     - bypasses the the underlying OS and this way allows HPC and ML applications to communicate directly with the network interface hardware - providing low-latency, reliable transport  
     
+    
+ ## Useful commands to know 
+ 
+ ```modinfo ena```   
+ Will display information related to the ena 
+ 
+ ```ethtool -i eth0```
+ 
+ Displays information regarding the network interface drivers
