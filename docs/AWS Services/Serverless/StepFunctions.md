@@ -20,3 +20,8 @@
 
 ## Videos
 - [Build on Serverless | Breaking the Monolith with Step Functions](https://www.youtube.com/watch?v=CFelZoLjF50)
+
+## Workshops
+
+- [Step functions Workshop on aws.workshops](https://catalog.workshops.aws/stepfunctions/en-US)
+
